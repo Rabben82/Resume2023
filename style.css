@@ -14,7 +14,7 @@
 }
 h5{
     font-family: 'Lato', Helvetica, sans-serif;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 .card-text{
     font-family: 'Lato', Helvetica, sans-serif;
@@ -48,11 +48,10 @@ h5{
 }
 .img-vr{
     border-radius: 20%;
-    margin-top: 15%;
     float: right;
 }
 .img-quote{
-    float: right;
+    float: left;
 }
 
 .txt-profile{
