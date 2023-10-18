@@ -16,6 +16,9 @@ h5{
     font-family: 'Lato', Helvetica, sans-serif;
     padding-bottom: 3%;
 }
+.card-text{
+    font-family: 'Lato', Helvetica, sans-serif;
+}
 .txt-skills{
     font-family: 'Salina', Helvetica, sans-serif;
     color: #837c9a;
@@ -32,16 +35,14 @@ h5{
 .skills{
     border-left: 1px solid black;
 }
-.img-profile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 1px solid black;
+.img-start{
+    width: 50%;
 }
 .img-profile img{
     border-radius: 50%;
 }
 .img-developer{
+    float: left;
     margin-top: 5%;
     border-radius: 20%;
 }
@@ -53,6 +54,7 @@ h5{
 .img-quote{
     float: right;
 }
+
 .txt-profile{
     padding-top: 30px;
     padding-bottom: 20px;
@@ -60,13 +62,20 @@ h5{
     color: #55665e;
 }
 .img-social{
-    width: 60%;
+    width: 100%;
 }
 .dropdown-item:hover{
     color:#C38154;
 }
 .nav-link:hover{
-    color:rgb(195, 129, 84);
+    opacity: 0.5;
+}
+.navbar-main .nav-item a.active{
+    color:#c38f8f; 
+}
+.navbar-main
+{
+    border-bottom: 0.5px solid black;
 }
 .text-container {
     width: 50%;
@@ -109,10 +118,48 @@ h5{
     font-size: 20px;
     text-align: center;
 }
+.breadcrumb{
+    margin-left: 24%;
+}
+.breadcrumb-item a{
+    color: #212121;
+    text-decoration: none;
+}
+.breadcrumb-item.active{
+    color: #7d2424;
+         
+}
+.breadcrumb-item a:hover{
+    color: #7d2424;
+}
+.column-start{
+    width: 50%;
+}
+.column-portfolio{
+    width: 70%;
+}
+.social-links a:hover{
+opacity: 0.5;
+}
 @media (max-width: 767px) {
-
+.column-start{
+    width: 80%; 
+}
 .text-container{
     width: 80%;
 }
-
+.img-social{
+    width: 80%;
+}
+}
+@media (max-width: 452px) {
+.column-portfolio{
+    width: 300px;
+}
+.column-start{
+    width: 100%; 
+}
+.text-container{
+    width: 100%;
+}
 }
