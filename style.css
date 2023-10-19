@@ -63,7 +63,7 @@ h5{
 .txt-profile{
     padding-top: 30px;
     padding-bottom: 20px;
-    font-family: 'Salina', Helvetica, sans-serif;;
+    font-family: 'Salina', Helvetica, sans-serif;
     color: #55665e;
 }
 .img-social{
@@ -149,5 +149,8 @@ opacity: 0.5;
 }
 .navbar{
     font-size: large;
+}
+.text-kontakt{
+    font-size: 87%;
 }
 }
