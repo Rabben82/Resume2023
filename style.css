@@ -66,6 +66,7 @@ h5{
 .dropdown-item:hover{
     color:#C38154;
 }
+
 .nav-link:hover{
     opacity: 0.5;
 }
@@ -160,5 +161,11 @@ opacity: 0.5;
 }
 .text-container{
     width: 100%;
+}
+.dropdown-menu{
+    font-size: large;
+}
+.navbar{
+    font-size: large;
 }
 }
