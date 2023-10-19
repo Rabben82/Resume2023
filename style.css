@@ -19,11 +19,14 @@ h5{
 .card-text{
     font-family: 'Lato', Helvetica, sans-serif;
 }
+.container-kontakt{
+    margin-left: 50px;
+}
 .text-kontakt{
     text-align: left; 
     margin: 0 auto; 
-    width: 199px;
-    font-size: 91%;
+    width: 250px;
+    font-size: 1.1rem;
 }
 .txt-skills{
     font-family: 'Salina', Helvetica, sans-serif;
@@ -150,7 +153,5 @@ opacity: 0.5;
 .navbar{
     font-size: large;
 }
-.text-kontakt{
-    font-size: 87%;
-}
+
 }
